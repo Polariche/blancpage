@@ -1,5 +1,6 @@
 import React, {useState} from 'react';
 import './gallery.css';
+import CloseIcon from '@mui/icons-material/Close';
 
 import Img1 from './img/1.jpg';
 import Img2 from './img/2.jpg';
@@ -77,8 +78,8 @@ const Gallery = () => {
 
     return (
         <>
-        <div className={model? "model open" : "model"}>
-
+        <div className={model? "model open" : "model"} onClick={() => setModel(false)}>
+            <img src={tempimgSrc}/>
         </div>
 
         <div className="gallery">

@@ -1,0 +1,30 @@
+.mainCard {
+    padding-top:20%;
+    padding-bottom:20%;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+.mainCard .mainCardInner a, a:visited {
+    color: #FFF;
+}
+
+.mainCard .mainCardInner{
+    background-color: #000A;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+
+.mainCard .mainCardInner img {
+    border-radius: 50%;
+    width: 12rem;
+    height: 12rem;
+  }
+
+.mainCard .mainCardInner svg {
+    width: 2rem;
+    height: 2rem;
+}
+  
